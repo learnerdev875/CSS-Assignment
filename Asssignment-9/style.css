@@ -1,0 +1,16 @@
+ul{
+    list-style:none;
+}
+ul li:before{
+    content: '✅';
+    margin-right:10px;
+}
+li{
+    margin-bottom: 20px;
+}
+li:last-child:hover{
+    text-decoration: underline;
+}
+last::first-letter{
+    color: blue;
+}
