@@ -29,9 +29,11 @@
             padding-inline-end: 20px;
         }
         .padding-right{
+            direction: rtl;
             padding-right: 20px;
         }
         .padding-inline-end2{
+            direction: rtl;
             padding-inline-end:20px ;
         }
     </style>
@@ -61,10 +63,10 @@
      <!-- the difference between padding right and padding-inline-end is the when we change the writing direction right left to right, the padding-inline-end acts as padding left -->
      <h1>Padding right and padding-inline-end</h1>
      <div class="box padding-right">
-        I have padding at right by 20px
+        I have padding at right by 20px even when changing the direction
      </div>
      <div class="box padding-inline-end2">
-        I habe padding at left by 20px
+        I have padding at left by 20px though im using padding-inline-end
      </div>
 </body>
 </html>
